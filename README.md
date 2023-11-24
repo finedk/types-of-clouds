@@ -9,3 +9,10 @@
 2) `telegram.py` - в этом файле находится реализация бота
 
 Для желающих ознакомиться с моим проектом и получить изображения, веса и ноутбук, необходимо перейти по этой [ссылке](https://drive.google.com/drive/folders/1aQeANIslISQJBj8qoUJo6DBlxsIF2tvy?usp=sharing)
+
+Для успешного запуска необходимо создать файл `.env` и записать в него переменные окружения
+```
+API_KEY=67000000:AA9nny8ny8ny8n8yn8y8nyn8yXevU 
+TG_IMAGE_PATH=images_tg 
+MODEL_PATH=lonet-5_new_clouds_v2.h5 
+```

@@ -11,8 +11,8 @@ from aiogram.filters import Command
 from aiogram import Bot, Dispatcher, types
 
 load_dotenv()
-MODEL_PATH = "lonet-5_new_clouds_v2.h5"
-TG_IMAGE_PATH = "images_tg"
+MODEL_PATH = os.getenv("MODEL_PATH")
+TG_IMAGE_PATH = os.getenv("TG_IMAGE_PATH")
 model = tf.keras.models.load_model(MODEL_PATH)
 model.summary()
 
